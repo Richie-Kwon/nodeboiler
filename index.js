@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 
 mongoose
   .connect(
-    "mongodb+srv://richie:1234Mon@boilerplate.gctvi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "mongodb+srv://richie:<****>@boilerplate.gctvi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
