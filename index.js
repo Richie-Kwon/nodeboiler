@@ -11,24 +11,12 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 mongoose
-<<<<<<< HEAD
   .connect(config.mongoURI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
     useFindAndModify: false,
   })
-=======
-  .connect(
-    "mongodb+srv://richie:<****>@boilerplate.gctvi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-    {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-      useCreateIndex: true,
-      useFindAndModify: false,
-    }
-  )
->>>>>>> 968efd4efb78dc3d1d323d03849473b9fddea913
   .then(() => console.log("MongoDB connected.."))
   .catch((err) => console.log(err));
 
