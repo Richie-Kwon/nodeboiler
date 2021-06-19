@@ -18,8 +18,8 @@ function App() {
       */}
         <Switch>
           <Route exact path="/" component={LandingPage} />
-          <Route exact path="/" component={LoginPage} />
-          <Route exact path="/" component={RegisterPage} />
+          <Route exact path="/login" component={LoginPage} />
+          <Route exact path="/register" component={RegisterPage} />
         </Switch>
       </div>
     </Router>
